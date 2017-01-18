@@ -7,5 +7,5 @@ const appReducer = combineReducers({
 })
 
 export default (state, action) => {
-  return appReducer(state, action)
+    return appReducer(state, action)
 }

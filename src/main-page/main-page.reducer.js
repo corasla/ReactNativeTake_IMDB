@@ -3,10 +3,10 @@ const initialState = {
 }
 
 export default (state = initialState, action = {}) => {
-  switch (action.type) {
-    case 'APP_LOADED':
-      return { ...state, isLoaded: true }
-    default:
-      return state
-  }
+    switch (action.type) {
+        case 'APP_LOADED':
+            return { ...state, isLoaded: true }
+        default:
+            return state
+    }
 }

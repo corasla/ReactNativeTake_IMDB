@@ -8,13 +8,13 @@ import NavigationRouter from './navigation/NavigationRouter'
 export const store = createStore(rootReducer)
 
 class App extends Component {
-  render () {
-    return (
-      <Provider store={store}>
-        <NavigationRouter />
-      </Provider>
-    )
-  }
+    render () {
+        return (
+            <Provider store={store}>
+                <NavigationRouter />
+            </Provider>
+        )
+    }
 }
 
 export default App
